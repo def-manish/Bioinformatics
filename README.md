@@ -1,31 +1,43 @@
 # Bioinformatics
 
-## with my private modification,
+A beginner-friendly bioinformatics learning repository centered on practical Biopython workflows.
 
-A beginner-friendly bioinformatics learning repository.
+## Intended audience
 
-## Contents
+This project is for students and developers who are new to bioinformatics and want clear, hands-on notebook examples.
 
-- `Biopython_|_Bioinformatics_Basics.ipynb` — introductory notebook for basic bioinformatics workflows using Biopython.
+## Learning goals
 
-## Main Biopython file
+- Understand core biological sequence concepts used in bioinformatics.
+- Practice common Biopython sequence and alignment workflows.
+- Build confidence working with reproducible, notebook-based analysis.
 
-The main Biopython file in this repository is:
+## Project layout
 
-- `/home/runner/work/Bioinformatics/Bioinformatics/Biopython_|_Bioinformatics_Basics.ipynb`
+- `notebooks/biopython_bioinformatics_basics.ipynb` — main learning notebook.
+- `data/` — placeholder directory for datasets used in exercises.
+- `examples/` — placeholder directory for future small standalone examples.
+- `.github/ISSUE_TEMPLATE/` — issue and feature request templates.
 
-It is the core notebook for this project and is the best place to start if you want to follow the Biopython-focused bioinformatics walkthroughs.
+## Quick start
 
-## Getting started
-
-1. Clone the repository.
-2. Open the notebook in Jupyter Notebook, JupyterLab, or VS Code.
-3. Install Python dependencies used in the notebook (for example, Biopython) before running cells.
-
-## Who this is for
-
-This project is aimed at students and developers who want a simple starting point for practical bioinformatics exercises.
+1. Clone this repository.
+2. Create and activate a virtual environment (recommended).
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. Start Jupyter:
+   ```bash
+   jupyter lab
+   ```
+   or
+   ```bash
+   jupyter notebook
+   ```
+5. Open:
+   - `notebooks/biopython_bioinformatics_basics.ipynb`
 
 ## Contributing
 
-Issues and feature requests are welcome through the repository issue templates.
+See `CONTRIBUTING.md` for issue/PR expectations and notebook contribution guidance.
